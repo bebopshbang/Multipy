@@ -1,0 +1,22 @@
+{
+    "version": 1.0,
+    "filetype": "Python",
+    "branch": ["dev", "integration", "prod"],
+    "structure":{
+        "section": ["header", "body", "footer"],
+        "order": {
+            "type": "numeric",
+            "sort": "ascending"
+        }
+    },
+    "filename":{
+        "base": "hello",
+        "extension": ".py",
+        "unique":{
+            "source": "computer",
+            "type": "UUID"
+        },
+        "format": ["base", "_", "unique", "extension"]
+    },
+    "file_encoding": "UTF-8"
+}
